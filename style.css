@@ -262,6 +262,11 @@ html {
     color: black;
 }
 
+.text-project a {
+    text-decoration: none;
+    color: black;
+}
+
 .text-title-project {
     font-weight: 700;
     font-style: normal;
