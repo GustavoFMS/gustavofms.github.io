@@ -1,0 +1,378 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Merriweather", serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  background-color: #2b192e;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 50px
+}
+
+.navbar {
+    padding: 15px;
+}
+
+.item-navbar {
+    padding: 15px;
+}
+
+.item-navbar {
+    color: #f5e8da;
+    font-family: "Merriweather", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+/**********/
+
+/* Home */
+.home-page {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.home-page {
+    height: 100vh;
+}
+
+.text-home {
+    padding: 15px;
+}
+
+.text-home {
+    color: white;
+}
+
+.first-line-home {
+    font-family: "League Gothic", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 50px;
+    font-style: normal;
+    word-spacing: 7px;
+    letter-spacing: 1.5px;
+}
+
+.second-line-home,
+.word-colored-home {
+    font-family: "League Gothic", sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    word-spacing: 7px;
+    letter-spacing: 2px;
+}
+
+.word-colored-home {
+    color: #f5e8da;
+}
+
+.image-home {
+    padding-top: 65px;
+}
+
+.image-home img {
+    width: 45vh;
+    border: 5px solid #2b192e;
+    border-radius: 29px;
+}
+
+/********/
+
+/* About-me */
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.about-me {
+    background-color: #f5e8da;
+}
+
+.content-about-me {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.text-about-me {
+    padding: 0px 15px 15px 15px;
+    width: 107vh;
+}
+
+.title-about-me,
+.title-skills-about-me
+ {
+    font-family: "League Gothic", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 50px;
+    font-style: normal;
+    letter-spacing: 7px;
+    border-left: 6px solid rgba(0, 0, 0, 0.619);
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-left: 150px;
+    padding: 0px 15px;
+}
+
+.title-about-me {
+    margin-top: 60px;
+}
+
+
+.about-me-first-paragraph,
+.about-me-second-paragraph {
+    font-weight: 300;
+    font-style: normal;
+    text-align: justify;
+    text-indent: 15px;
+}
+
+.image-about-me {    
+    padding-top: 0;
+}
+
+.image-about-me img {
+    width: 37vh;
+    border-radius: 29px;
+}
+
+/* SKILLS */
+
+.content-skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.my-skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.my-skills {
+    background-color: #978a84;
+    border-radius: 10px;
+}
+
+.my-skills {
+    width: 100vh;
+    height: 23vh;
+    padding: 25px;
+}
+
+.box-skill {
+    display: flex;
+    align-items: center;
+    width: 165px;
+    gap: 12px;
+    height: 55px;
+    padding: 20px;
+}
+
+.box-skill {
+    color: white;
+    fill: white;
+    background-color: #5b535c;
+    border-radius: 7px;
+}
+
+.box-skill svg {
+    width: 28px;
+}
+
+/***********/
+
+/* Projects */
+.project {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 100%;
+    height: 100vh;
+}
+
+.title-project {
+    font-family: "League Gothic", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 50px;
+    font-style: normal;
+    letter-spacing: 7px;
+    border-left: 6px solid white;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    margin-left: 150px;
+    padding: 0px 15px;
+}
+
+.content-project {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: fit-content;
+    margin-left: 150px;
+    gap: 20px;
+}
+
+.grid-project {
+    padding: 15px;
+}
+
+.grid-project {
+    background-color: rgba(255, 255, 255, 0.886);
+    border-radius: 12px;
+}
+
+.image-project {
+    text-align: center;
+    border-bottom: 3px solid black;
+}
+
+.image-project img{
+    min-height: 160px;
+    max-width: 335px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.text-project {
+    margin-top: 15px;
+}
+
+.text-project {
+    color: black;
+}
+
+.text-title-project {
+    font-weight: 700;
+    font-style: normal;
+}
+
+.text-about-project {
+    font-weight: 300;
+    font-style: normal;
+    text-align: justify;
+    text-indent: 15px;
+    padding-top: 8px;
+}
+/************/
+
+/* Contacts */
+.contacts {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.title-contacts {
+    font-family: "League Gothic", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 50px;
+    font-style: normal;
+    letter-spacing: 7px;
+    color: white;
+    border-bottom: 6px solid white;
+    margin-bottom: 20px;
+    padding: 0px 15px;
+}
+
+.social {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.github-box {
+    background: #333;
+    color: #d6d6d6;
+    cursor: pointer;
+    display: flex;
+    height: 9rem;
+    padding: 0 1.5rem;
+    position: relative;
+    width: 33%;
+    align-items: center;
+    justify-content: center;
+    gap: 29px;
+}
+
+.github-box p {
+    font-size: 3.5rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.github-box svg {
+    height: 85px;
+    width: 85px;
+}
+
+.linkedin-box{
+    align-items: center;
+    background: #0077b5;
+    color: #cce4f0;
+    cursor: pointer;
+    display: flex;
+    height: 9rem;
+    justify-content: center;
+    padding: 0 1.5rem;
+    width: 33%;
+    gap: 30px;
+}
+
+.linkedin-box p {
+    font-size: 3.4rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.linkedin-box svg {
+    height: 85px;
+    width: 85px;
+}
+
+.social-mail {
+    background: #10ba46;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 9rem;
+    padding: 0px 1.5rem;
+    width: 34%;
+    gap: 29px;
+}
+
+.social-mail p {
+    font-size: 2.3rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.social-mail svg {
+    height: 85px;
+    width: 85px;
+}
+
+/***********/
